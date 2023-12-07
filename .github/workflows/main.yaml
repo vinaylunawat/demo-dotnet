@@ -54,6 +54,6 @@ jobs:
           event-type: build
           workflow: CD
           # workflow: CD-TESTING
-          repository: awst-global/api.awst.io-environment
+          repository: techvishal1988/dot-net-CD
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           client-payload: '{"image_name": "${{ env.ECR_REG }}", "image_tag": "${{needs.build.outputs.output1}}", "app_repo": "wallet-awst-io", "env_name": "dev"}'
