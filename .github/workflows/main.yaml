@@ -43,6 +43,7 @@ jobs:
         echo $IMAGE_ID
         echo "::set-output name=image::$IMAGE_ID"
 
+
         
   release:
        runs-on: ubuntu-latest
