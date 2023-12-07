@@ -24,7 +24,7 @@ jobs:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
            
         run: |
-          export PAT=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 
+          export PAT=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 
           echo $PAT | docker login ghcr.io -u techvishal1988 --password-stdin 
           docker build -t ghcr.io/techvishal1988/hello-world:$GITHUB_SHA .
           docker push ghcr.io/techvishal1988/hello-world:$GITHUB_SHA
