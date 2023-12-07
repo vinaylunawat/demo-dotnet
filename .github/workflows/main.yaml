@@ -2,8 +2,6 @@ name: CI
 on:
   push:
     branches: [ "main" ]
-env:
-  ECR_REPOSITORY: demo21
 jobs:
   build:
     name: Build and Pushing the Image
