@@ -54,4 +54,4 @@ jobs:
           # workflow: CD-TESTING
           repository: techvishal1988/dot-net-CD
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          client-payload: '{"image_name": "${{ env.ECR_REG }}", "image_tag": "${{needs.build.outputs.output1}}", "app_repo": "wallet-awst-io", "env_name": "dev"}'
+          client-payload: '{"image_name": "${{ env.ECR_REG }}", "image_tag": "${{needs.build.outputs.output1}}", "app_repo": "guestbook", "env_name": "dev"}'
