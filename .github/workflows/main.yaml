@@ -5,6 +5,7 @@ on:
 env:
    ECR_REG: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-ecr
    
+
     
 jobs:
   build:
