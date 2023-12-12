@@ -8,7 +8,6 @@
 - ASP.NET Core Web API
 - CRUD
 - SWAGGER
-
 ## Packages
 The package reference is available
 <ul>
