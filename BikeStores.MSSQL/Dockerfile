@@ -16,5 +16,5 @@ RUN dotnet publish "./BikeStores.MSSQL.csproj" -c $BUILD_CONFIGURATION -o /app/p
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-EXPOSE 8080
+EXPOSE 80
 ENTRYPOINT ["dotnet", "BikeStores.MSSQL.dll"]
